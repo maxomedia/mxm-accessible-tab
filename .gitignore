@@ -1,0 +1,23 @@
+# Third party modules
+node_modules
+bower_components
+
+# Test files
+test
+tests
+temp
+
+# Galen reports
+__tests__/reports
+
+# Cache files
+*.gulp
+
+# Project files
+*.sublime-project
+*.sublime-workspace
+*.lnk
+
+# Built assets
+dist
+dest

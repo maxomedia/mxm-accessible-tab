@@ -1,0 +1,155 @@
+extends ../shared/layout.jade
+
+block body
+	div.international
+	div.container
+		h2 Region select Demo
+		div
+			span.gfx.gfx-globe International
+
+	div.international-container
+		div.container
+			ul.region-select(role='tablist')
+				li(aria-controls='region-europe' mxm-group='region-tabs' aria-selected='true' role='tab' ) Europe
+				li(aria-controls='region-america' mxm-group='region-tabs' role='tab') America
+				li(aria-controls='region-asia-australia' mxm-group='region-tabs' role='tab') Asia &amp; Australia
+		div.container
+			div.row#region-europe
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') ÖsterReich
+						li 
+							a(href='') Belgium
+						li 
+							a(href='') Croatia
+						li 
+							a(href='') Czech
+						li.active 
+							a(href='') Denmark
+						li 
+							a(href='') Deutschland
+						li 
+							a(href='') England
+						li 
+							a(href='') Estonia
+						li 
+							a(href='') Finland
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') Frankreich
+						li 
+							a(href='') Hungary
+						li 
+							a(href='') Iceland
+						li 
+							a(href='') Ireland
+						li 
+							a(href='') Italien
+						li 
+							a(href='') Luxembourg
+						li 
+							a(href='') Netherlands
+						li 
+							a(href='') Norway
+						li 
+							a(href='') Poland
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') Portugal
+						li 
+							a(href='') Romania
+						li 
+							a(href='') Russia
+						li 
+							a(href='') Schweiz
+						li 
+							a(href='') Serbien
+						li 
+							a(href='') Slovak
+						li 
+							a(href='') Spain
+						li 
+							a(href='') Sweden						
+			div.row#region-america
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') Argentina
+						li 
+							a(href='') Brasil
+						li 
+							a(href='') Canada
+						li 
+							a(href='') Chile
+						li 
+							a(href='') Mexico
+				div.col-sm-4
+					ul.region-list
+						li
+							a(href='') Argentina
+						li 
+							a(href='') Brasil
+						li 
+							a(href='') Canada
+						li 
+							a(href='') Chile
+						li 
+							a(href='') Mexico
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') Argentina
+						li 
+							a(href='') Brasil
+						li 
+							a(href='') Canada
+						li 
+							a(href='') Chile
+						li 
+							a(href='') Mexico
+			div.row#region-asia-australia
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') China
+						li 
+							a(href='') Indonesia
+						li 
+							a(href='') Japan
+						li 
+							a(href='') Singapore
+						li 
+							a(href='') South Korea
+						li 
+							a(href='') Thailand
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') China
+						li 
+							a(href='') Indonesia
+						li 
+							a(href='') Japan
+						li 
+							a(href='') Singapore
+						li 
+							a(href='') South Korea
+						li 
+							a(href='') Thailand
+				div.col-sm-4
+					ul.region-list
+						li 
+							a(href='') China
+						li 
+							a(href='') Indonesia
+						li 
+							a(href='') Japan
+						li 
+							a(href='') Singapore
+						li 
+							a(href='') South Korea
+						li 
+							a(href='') Thailand
